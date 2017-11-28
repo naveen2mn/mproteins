@@ -168,3 +168,23 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.logo{
+    height: 90px;
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+    background: url(img/logo.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 8px;
+}
+.icon-font{font-size: 40px;}        
+.icon-right {
+    font-size: 16px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.item{
+    margin-bottom: 20px;
+    display: flex;
+}
