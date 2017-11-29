@@ -174,7 +174,7 @@ p.copyright {
     display: inline-block;
     width: 200px;
     cursor: pointer;
-    background: url(img/logo.jpg) no-repeat;
+    background: url(../images/logo.jpg) no-repeat;
     background-size: 80%;
     background-position: 10px 8px;
 }
@@ -188,3 +188,4 @@ p.copyright {
     margin-bottom: 20px;
     display: flex;
 }
+
