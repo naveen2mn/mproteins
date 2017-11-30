@@ -1,19 +1,24 @@
 $(function () {
     
-        function initMap() {
-    
-            var location = new google.maps.LatLng(50.0875726, 14.4189987);
-    
-            var mapCanvas = document.getElementById('map');
-            var mapOptions = {
-                center: location,
-                zoom: 16,
-                panControl: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-    
-        }
-    
-        google.maps.event.addDomListener(window, 'load', initMap);
+    function init_map() {
+		var var_location = new google.maps.LatLng(45.430817,12.331516);
+ 
+        var var_mapoptions = {
+          center: var_location,
+          zoom: 14
+        };
+ 
+		var var_marker = new google.maps.Marker({
+			position: var_location,
+            map: var_map,
+			title:"Venice"});
+ 
+        var var_map = new google.maps.Map(document.getElementById("map"),
+            var_mapoptions);
+ 
+		var_marker.setMap(var_map);	
+ 
+      }
+ 
+      google.maps.event.addDomListener(window, 'load', init_map);
     });

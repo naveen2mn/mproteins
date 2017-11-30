@@ -170,15 +170,17 @@ p.copyright {
 }
 
 .logo{
-    height: 90px;
     display: inline-block;
-    width: 200px;
     cursor: pointer;
-    background: url(../images/logo.jpg) no-repeat;
-    background-size: 80%;
-    background-position: 10px 8px;
+    background: url(../images/brand-logo.png) no-repeat;
+    background-size: 80px;
+    height: 50px;
+    width: 87px;
+    margin-top: 4px;
 }
-.icon-font{font-size: 40px;}        
+.icon-font{
+    font-size: 40px;
+}        
 .icon-right {
     font-size: 16px;
     margin-left: 20px;
@@ -187,5 +189,8 @@ p.copyright {
 .item{
     margin-bottom: 20px;
     display: flex;
+}
+.navbar-brand{
+    padding:0 10px;
 }
 
