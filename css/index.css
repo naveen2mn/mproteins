@@ -28,6 +28,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .intro-header {
@@ -41,8 +42,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 5%;
 }
 
 .intro-message > h1 {
@@ -152,7 +152,7 @@ h6 {
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
-        padding: 0;
+        padding: 0;;
     }
 
     ul.banner-social-buttons > li:last-child {
@@ -194,3 +194,99 @@ p.copyright {
     padding:0 10px;
 }
 
+.carousel-inner>.item>img{
+    height:710px;
+}
+.item-name {
+    text-align: center;
+    font-size: 20px;
+    color: deepskyblue;
+    cursor: pointer;
+}
+.view-more {
+    position: absolute;
+    top: 112px;
+    font-size: 14px;
+    right: 150px;
+    background: white;
+    height: 18px;
+    width: 85px;
+    text-align: center;
+    cursor: pointer;
+}
+.item-image {
+    height: 130px;
+    border-radius: 3px;
+    background-size: cover !important;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pepper {
+    background: url(../images/pepper-thumb.jpg)no-repeat;
+}
+.chilly {
+    background: url(../images/chilly-thumb.jpg)no-repeat;
+}
+.turmeric {
+    background: url(../images/turmic-thumb.jpg)no-repeat;
+}
+.cumin {
+    background: url(../images/cumins-thumb.jpg)no-repeat;
+}
+.mushroom {
+    background: url(../images/mushroom-thumb.jpg)no-repeat;
+}
+.cinnamon {
+    background: url(../images/cinnamon-thumb.jpg)no-repeat;
+}
+.certIcon{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.cert1{
+    width:100px;
+    display:inline-block;
+    height:100px;
+    background: url(../images/ISO.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 6px;
+    margin-right: 30px;
+}
+.cert2{
+    width:100px;
+    display:inline-block;
+    height:100px;
+    background: url(../images/Govt-of-India.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 14px;
+    margin-right: 30px;
+}
+.cert3{
+    width:100px;
+    display:inline-block;
+    height:100px;
+    background: url(../images/fssai.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 30px;
+    margin-right: 30px;
+}
+.cert4{
+    width:100px;
+    display:inline-block;
+    height:100px;
+    background: url(../images/spice-india.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 12px;
+    margin-right: 30px;
+}
+.cert5{
+    width:100px;
+    display:inline-block;
+    height:100px;
+    background: url(../images/FDA.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 10px 32px;
+    margin-right: 30px;
+}
